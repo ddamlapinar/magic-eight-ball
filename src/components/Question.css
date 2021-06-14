@@ -1,0 +1,29 @@
+.input {
+  background-color: transparent;
+  color: #fff;
+  border: transparent;
+  border-bottom: 2px solid #fff;
+  width: 300px;
+}
+.input:focus {
+  outline: none;
+  color: #fff;
+}
+.input::placeholder {
+  color: #4e4975;
+  font-weight: bold;
+}
+.btn-submit {
+  background-color: transparent !important;
+  border: 2px solid #fff !important;
+  border-radius: 10px !important;
+}
+.btn-submit:hover {
+  background-color: #4e4975 !important;
+  border: 2px solid #4e4975 !important;
+}
+
+.btn-submit:focus {
+  outline: transparent !important;
+  box-shadow: none !important;
+}
